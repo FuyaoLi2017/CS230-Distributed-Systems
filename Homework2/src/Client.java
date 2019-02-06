@@ -1,5 +1,3 @@
-package com.company;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
@@ -10,7 +8,7 @@ import java.net.SocketTimeoutException;
 public class Client {
 
     public static void main(String args[]) throws Exception {
-        String host = "192.168.56.1";  // the server waiting to be connected
+        String host = "192.168.56.102";  // the server waiting to be connected
         int port = 8888;   // specify the port to be connected
         // set up a connection with server
         Socket client = new Socket(host, port);
